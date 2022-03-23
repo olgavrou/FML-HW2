@@ -19,5 +19,5 @@ mv xab abalone.data.libsvm.test
 ./libsvm/svm-scale -s range abalone.data.libsvm.train > abalone.data.libsvm.train.scale
 ./libsvm/svm-scale -r range abalone.data.libsvm.test > abalone.data.libsvm.test.scale
 
-
-python3 cv_manual_dataset.py
+# C.3 split the dataset for manual cross validation
+python3 C_3_cv_manual_dataset.py

@@ -3,7 +3,7 @@
 rm manual_test_err_*
 
 for d in $(seq 1 5); do
-	for c in $(seq -10 10); do
+	for c in $(seq -20 20); do
 		for inner_d in $(seq 1 5); do
 			echo "$d - $c"
 			ABC=$(bc -l <<< "3 ^($c)")
